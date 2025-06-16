@@ -23,6 +23,7 @@ Data ini bersumber dari kaggle, data ini dapat di akses melalui [link](https://w
 Variabel-variabel pada fashion dataset adalah sebagai berikut:
 - User ID : Nomor atau ID dari pembeli pakaian
 - Product ID : Nomor atau ID dari produk atau pakaian yang telah dibeli
+- Product Name : Nama dari produk yang dijual
 - Brand : Nama pembuat dari barang atau pakaian
 - Category : Penggolongan pakaian berdasarkan kelamin dan usia, anak - anak, wanita atau pria
 - Price : Harga dari pakaian
@@ -49,6 +50,19 @@ Pada bagian ini dijelaskan tahapan - tahapan mempersiapkan data untuk modeling
 - Memastikan berapa jumlah pelanggan (User ID) dan barang yang telah mereka beli (Product ID)
 
   ![ALL COunt](https://github.com/user-attachments/assets/6f269b0f-723a-471b-af2e-768ce73c6ed3)
+
+- Mapping User ID dan Produk ID ke masing - masing dataframe user, produk
+
+  ![Mapping](https://github.com/user-attachments/assets/30b5ab11-09cd-41b9-8ca4-0cce8fe5cf20)
+
+- Mengacak data untuk memebuat data lebih random lagi dengan tujuan pada tahap training data dapat bervariasi
+
+  ![Random](https://github.com/user-attachments/assets/e7d5b410-1acf-441a-80fd-1dd293ffe9a5)
+
+- Menormalisasi kolom rating
+
+  ![Normal](https://github.com/user-attachments/assets/7f682a1a-877d-4511-b0e9-b58e6945b337)
+
 
 - Membagi data untuk training dan validasi
 
@@ -86,7 +100,3 @@ Dari grafik yang ada fiketahui bahwa loss dari train data semakin kecil dan keci
 
 
 **---Ini adalah bagian akhir laporan---**
-
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
