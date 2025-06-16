@@ -47,13 +47,14 @@ Pada bagian ini dijelaskan tahapan - tahapan mempersiapkan data untuk modeling
 
   ![Encoding](https://github.com/user-attachments/assets/6e587f69-d493-4efc-a8ba-5a48c18de89f)
 
-- Memastikan berapa jumlah pelanggan (User ID) dan barang yang telah mereka beli (Product ID)
-
-  ![ALL COunt](https://github.com/user-attachments/assets/6f269b0f-723a-471b-af2e-768ce73c6ed3)
-
 - Mapping User ID dan Produk ID ke masing - masing dataframe user, produk
 
   ![Mapping](https://github.com/user-attachments/assets/30b5ab11-09cd-41b9-8ca4-0cce8fe5cf20)
+
+
+- Memastikan berapa jumlah pelanggan (User ID) dan barang yang telah mereka beli (Product ID)
+
+  ![ALL COunt](https://github.com/user-attachments/assets/6f269b0f-723a-471b-af2e-768ce73c6ed3)
 
 - Mengacak data untuk memebuat data lebih random lagi dengan tujuan pada tahap training data dapat bervariasi
 
